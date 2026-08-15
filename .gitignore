@@ -37,3 +37,4 @@ build/
 *.env
 .DS_Store
 application-local.properties
+application-test-local.properties
