@@ -38,3 +38,10 @@ build/
 .DS_Store
 application-local.properties
 application-test-local.properties
+
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
