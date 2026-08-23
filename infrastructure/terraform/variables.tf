@@ -27,3 +27,9 @@ variable "key_vault_name" {
   type        = string
   default     = "cloudcart-kv-dev-arjun"
 }
+
+variable "acr_name" {
+  description = "Azure Container Registry name"
+  type        = string
+  default     = "cloudcartacrdev"
+}
